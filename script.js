@@ -16,8 +16,8 @@ let quote={
 displayQuote : function(data){
     const {content}=data;
     const {name}=data.originator;
-    document.querySelector(".quote").innerHTML = content;
-    document.querySelector(".AuthorName").innerHTML = name;
+    document.querySelector(".quote").innerHTML = "''" + content  + "''";
+    document.querySelector(".AuthorName").innerHTML = "-" + name;
 }};
 
 document.querySelector("#generate").addEventListener("click",function() {

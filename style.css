@@ -1,0 +1,39 @@
+body{
+    background-image:url("https://www.wallpaperflare.com/static/523/148/955/patterns-background-dark-texture-wallpaper.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.heading{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+#generate{
+    border-radius:30px ;
+    padding: 1rem;
+    background: rgb(7,91,189);
+    background: radial-gradient(circle, rgba(7,91,189,1) 0%, rgba(85,31,153,1) 94%);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+
+.quotebody{
+    font-size: 3rem;
+    font-style: italic;
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+.authorbody{
+    font-size: 2rem;
+}
+
+.footer{
+    text-align: center;
+    bottom: 0px;
+    font-size: 2rem;
+}
